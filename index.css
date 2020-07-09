@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+	height: 100%;
+	width:100%;
+    /* background-image: linear-gradient(rgba(0,0,0,-4),rgba(0,0,0,-4)),url('https://i.ibb.co/n83m5Z1/banner.jpg'); */
+    background-image: url(./assets/images/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.logo
+{
+    /* width: 150px; */
+    height: 120px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: rgb(255, 255, 255);
+	padding:5px;
+    overflow: hidden;
+    border: 2px solid #68C2E8;;
+   
+    border-radius: 20px;
+    /* box-shadow: 1px 1px 15px white; */
+}
+
+.button-box{
+	width: 220px;
+    /* margin: 35px auto; */
+    margin:  0 auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+    /* background: linear-gradient(to right, #68C2E8, #17076e); */
+    background-color: #68C2E8;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+
+
+.input-group{
+    /* top: 180px; */
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    left: 50px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    background-color: #68C2E8;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;  
+}
+
+#register{
+    left: 450px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
